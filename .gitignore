@@ -150,3 +150,5 @@ Notes.txt
 #*.html
 *backtest-chart.html
 *candlestick.html
+.envrc
+.envrc

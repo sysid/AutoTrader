@@ -1,0 +1,42 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+pyfiglet = "*"
+PyYAML = "*"
+bokeh = "*"
+scipy = "*"
+yfinance = "*"
+finta = "*"
+v20 = "*"
+ib_insync = "*"
+tqdm = "*"
+importlib-resources = "*"
+
+[dev-packages]
+black = "*"
+coverage = "*"
+build = "*"
+bump2version = "*"
+flake8 = "*"
+flake8-bugbear = "*"
+ipython = "*"
+isort = "*"
+pre-commit = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-mock = "*"
+#pytest-freezegun = "*"  # time freezer
+scriv = "*"
+#sphinx = "*"
+#sphinx-rtd-theme = "*"
+
+# required for tests to find imports
+# = {editable = true, path = "."}
+
+[requires]
+python_version = "3.10"
